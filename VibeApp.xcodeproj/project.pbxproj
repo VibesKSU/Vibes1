@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		52A8D7622216FCCD00E9BF77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D7612216FCCD00E9BF77 /* AppDelegate.swift */; };
-		52A8D7642216FCCD00E9BF77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D7632216FCCD00E9BF77 /* ViewController.swift */; };
-		52A8D7672216FCCD00E9BF77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A8D7652216FCCD00E9BF77 /* Main.storyboard */; };
 		52A8D7692216FCCD00E9BF77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A8D7682216FCCD00E9BF77 /* Assets.xcassets */; };
 		52A8D76C2216FCCD00E9BF77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A8D76A2216FCCD00E9BF77 /* LaunchScreen.storyboard */; };
+		52A8D7742216FCE700E9BF77 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A8D7732216FCE700E9BF77 /* Start.storyboard */; };
+		52A8D7762216FD0A00E9BF77 /* SingInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D7752216FD0A00E9BF77 /* SingInVC.swift */; };
+		52A8D7782216FF0600E9BF77 /* SingUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D7772216FF0600E9BF77 /* SingUpVC.swift */; };
+		52A8D77A2216FF7700E9BF77 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D7792216FF7700E9BF77 /* HomeVC.swift */; };
+		52A8D77C2216FFB500E9BF77 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D77B2216FFB500E9BF77 /* CameraVC.swift */; };
+		52A8D78422171BCD00E9BF77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52A8D78322171BCD00E9BF77 /* GoogleService-Info.plist */; };
+		52A8D7862217226F00E9BF77 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D7852217226F00E9BF77 /* AuthModel.swift */; };
+		52A8D78E221B2CDF00E9BF77 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D78D221B2CDF00E9BF77 /* PostModel.swift */; };
+		52A8D790221B2F9400E9BF77 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D78F221B2F9400E9BF77 /* HomeCell.swift */; };
+		52A8D793221B3ECD00E9BF77 /* users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D792221B3ECD00E9BF77 /* users.swift */; };
+		71555127952BC91DA8FBAB37 /* Pods_VibeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83155C128B56AC83A0C7B7F4 /* Pods_VibeApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		169574A4E53272945CB02C56 /* Pods-VibeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibeApp.release.xcconfig"; path = "Target Support Files/Pods-VibeApp/Pods-VibeApp.release.xcconfig"; sourceTree = "<group>"; };
 		52A8D75E2216FCCD00E9BF77 /* VibeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A8D7612216FCCD00E9BF77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52A8D7632216FCCD00E9BF77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		52A8D7662216FCCD00E9BF77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52A8D7682216FCCD00E9BF77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A8D76B2216FCCD00E9BF77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52A8D76D2216FCCD00E9BF77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A8D7732216FCE700E9BF77 /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		52A8D7752216FD0A00E9BF77 /* SingInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInVC.swift; sourceTree = "<group>"; };
+		52A8D7772216FF0600E9BF77 /* SingUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpVC.swift; sourceTree = "<group>"; };
+		52A8D7792216FF7700E9BF77 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		52A8D77B2216FFB500E9BF77 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		52A8D78322171BCD00E9BF77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52A8D7852217226F00E9BF77 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
+		52A8D78D221B2CDF00E9BF77 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		52A8D78F221B2F9400E9BF77 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		52A8D792221B3ECD00E9BF77 /* users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = users.swift; sourceTree = "<group>"; };
+		53A5F8F3DDC0990D4A18972B /* Pods-VibeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibeApp.debug.xcconfig"; path = "Target Support Files/Pods-VibeApp/Pods-VibeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		83155C128B56AC83A0C7B7F4 /* Pods_VibeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VibeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71555127952BC91DA8FBAB37 /* Pods_VibeApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +59,11 @@
 		52A8D7552216FCCC00E9BF77 = {
 			isa = PBXGroup;
 			children = (
+				52A8D7852217226F00E9BF77 /* AuthModel.swift */,
 				52A8D7602216FCCD00E9BF77 /* VibeApp */,
 				52A8D75F2216FCCD00E9BF77 /* Products */,
+				68E67E6AB18F9B71FE3F6E88 /* Pods */,
+				A17AB026302EFEDB32CFA563 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +78,46 @@
 		52A8D7602216FCCD00E9BF77 /* VibeApp */ = {
 			isa = PBXGroup;
 			children = (
+				52A8D791221B37BC00E9BF77 /* Post Model */,
+				52A8D78F221B2F9400E9BF77 /* HomeCell.swift */,
+				52A8D7732216FCE700E9BF77 /* Start.storyboard */,
+				52A8D7792216FF7700E9BF77 /* HomeVC.swift */,
+				52A8D77B2216FFB500E9BF77 /* CameraVC.swift */,
+				52A8D7752216FD0A00E9BF77 /* SingInVC.swift */,
+				52A8D7772216FF0600E9BF77 /* SingUpVC.swift */,
 				52A8D7612216FCCD00E9BF77 /* AppDelegate.swift */,
-				52A8D7632216FCCD00E9BF77 /* ViewController.swift */,
-				52A8D7652216FCCD00E9BF77 /* Main.storyboard */,
 				52A8D7682216FCCD00E9BF77 /* Assets.xcassets */,
 				52A8D76A2216FCCD00E9BF77 /* LaunchScreen.storyboard */,
 				52A8D76D2216FCCD00E9BF77 /* Info.plist */,
+				52A8D78322171BCD00E9BF77 /* GoogleService-Info.plist */,
+				52A8D792221B3ECD00E9BF77 /* users.swift */,
 			);
 			path = VibeApp;
+			sourceTree = "<group>";
+		};
+		52A8D791221B37BC00E9BF77 /* Post Model */ = {
+			isa = PBXGroup;
+			children = (
+				52A8D78D221B2CDF00E9BF77 /* PostModel.swift */,
+			);
+			path = "Post Model";
+			sourceTree = "<group>";
+		};
+		68E67E6AB18F9B71FE3F6E88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53A5F8F3DDC0990D4A18972B /* Pods-VibeApp.debug.xcconfig */,
+				169574A4E53272945CB02C56 /* Pods-VibeApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A17AB026302EFEDB32CFA563 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83155C128B56AC83A0C7B7F4 /* Pods_VibeApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52A8D7702216FCCD00E9BF77 /* Build configuration list for PBXNativeTarget "VibeApp" */;
 			buildPhases = (
+				C0E11376B2B2F42A86FE3FFB /* [CP] Check Pods Manifest.lock */,
 				52A8D75A2216FCCC00E9BF77 /* Sources */,
 				52A8D75B2216FCCC00E9BF77 /* Frameworks */,
 				52A8D75C2216FCCC00E9BF77 /* Resources */,
+				8839DB71347B7E15E5F30CC7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,34 +181,83 @@
 			buildActionMask = 2147483647;
 			files = (
 				52A8D76C2216FCCD00E9BF77 /* LaunchScreen.storyboard in Resources */,
+				52A8D78422171BCD00E9BF77 /* GoogleService-Info.plist in Resources */,
 				52A8D7692216FCCD00E9BF77 /* Assets.xcassets in Resources */,
-				52A8D7672216FCCD00E9BF77 /* Main.storyboard in Resources */,
+				52A8D7742216FCE700E9BF77 /* Start.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8839DB71347B7E15E5F30CC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VibeApp/Pods-VibeApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VibeApp/Pods-VibeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E11376B2B2F42A86FE3FFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VibeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		52A8D75A2216FCCC00E9BF77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52A8D7642216FCCD00E9BF77 /* ViewController.swift in Sources */,
+				52A8D77A2216FF7700E9BF77 /* HomeVC.swift in Sources */,
+				52A8D793221B3ECD00E9BF77 /* users.swift in Sources */,
+				52A8D7762216FD0A00E9BF77 /* SingInVC.swift in Sources */,
+				52A8D790221B2F9400E9BF77 /* HomeCell.swift in Sources */,
+				52A8D77C2216FFB500E9BF77 /* CameraVC.swift in Sources */,
+				52A8D78E221B2CDF00E9BF77 /* PostModel.swift in Sources */,
+				52A8D7782216FF0600E9BF77 /* SingUpVC.swift in Sources */,
 				52A8D7622216FCCD00E9BF77 /* AppDelegate.swift in Sources */,
+				52A8D7862217226F00E9BF77 /* AuthModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		52A8D7652216FCCD00E9BF77 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52A8D7662216FCCD00E9BF77 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		52A8D76A2216FCCD00E9BF77 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,16 +385,17 @@
 		};
 		52A8D7712216FCCD00E9BF77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A5F8F3DDC0990D4A18972B /* Pods-VibeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LWB95358XJ;
+				DEVELOPMENT_TEAM = KYCVLD89Y4;
 				INFOPLIST_FILE = VibeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = saad.VibeApp;
+				PRODUCT_BUNDLE_IDENTIFIER = VibeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -296,16 +404,17 @@
 		};
 		52A8D7722216FCCD00E9BF77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 169574A4E53272945CB02C56 /* Pods-VibeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LWB95358XJ;
+				DEVELOPMENT_TEAM = KYCVLD89Y4;
 				INFOPLIST_FILE = VibeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = saad.VibeApp;
+				PRODUCT_BUNDLE_IDENTIFIER = VibeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
