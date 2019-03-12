@@ -21,6 +21,7 @@
 		52A8D790221B2F9400E9BF77 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D78F221B2F9400E9BF77 /* HomeCell.swift */; };
 		52A8D793221B3ECD00E9BF77 /* users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D792221B3ECD00E9BF77 /* users.swift */; };
 		71555127952BC91DA8FBAB37 /* Pods_VibeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83155C128B56AC83A0C7B7F4 /* Pods_VibeApp.framework */; };
+		AAEA77E222385B9A00820F20 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA77E122385B9A00820F20 /* ProfileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		52A8D792221B3ECD00E9BF77 /* users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = users.swift; sourceTree = "<group>"; };
 		53A5F8F3DDC0990D4A18972B /* Pods-VibeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibeApp.debug.xcconfig"; path = "Target Support Files/Pods-VibeApp/Pods-VibeApp.debug.xcconfig"; sourceTree = "<group>"; };
 		83155C128B56AC83A0C7B7F4 /* Pods_VibeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VibeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEA77E122385B9A00820F20 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				52A8D791221B37BC00E9BF77 /* Post Model */,
 				52A8D78F221B2F9400E9BF77 /* HomeCell.swift */,
 				52A8D7732216FCE700E9BF77 /* Start.storyboard */,
+				AAEA77E122385B9A00820F20 /* ProfileVC.swift */,
 				52A8D7792216FF7700E9BF77 /* HomeVC.swift */,
 				52A8D77B2216FFB500E9BF77 /* CameraVC.swift */,
 				52A8D7752216FD0A00E9BF77 /* SingInVC.swift */,
@@ -243,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAEA77E222385B9A00820F20 /* ProfileVC.swift in Sources */,
 				52A8D77A2216FF7700E9BF77 /* HomeVC.swift in Sources */,
 				52A8D793221B3ECD00E9BF77 /* users.swift in Sources */,
 				52A8D7762216FD0A00E9BF77 /* SingInVC.swift in Sources */,
